@@ -11,4 +11,8 @@ document.body.addEventListener("click", function (event) {
   }
 });
 
+if (!docCookie.getItem("user")) {
+  docCookie.setItem("user", "john");
+}
+
 window.docCookie = docCookie;

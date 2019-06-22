@@ -1,5 +1,4 @@
-import { initInputEventListeners } from './bundle';
-initInputEventListeners();
+import { init } from 'remakejs/dist/bundle.es6';
 
-
+init();
 

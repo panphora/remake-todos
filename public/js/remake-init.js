@@ -1,20 +1,5 @@
-import { $ } from './remakejs/queryjs';
-
-import './remakejs/copy-layout';
-
-import './remakejs/switchjs';
-
-import { initInputEventListeners } from './remakejs/inputjs';
-
+import { initInputEventListeners } from './bundle';
 initInputEventListeners();
-
-import { getDataFromRootNode } from './remakejs/outputjs';
-
-window.getDataFromRootNode = getDataFromRootNode;
-
-
-
-
 
 
 
